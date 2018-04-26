@@ -69,14 +69,14 @@ After running this algorithm, the results will be wrote in file and save in './d
 ------------
 Requirements
 ------------
-*numpy
-*scipy
-*gensim
-*networkx
-*sklearn
-*futures
-*psutil
-*matplotlib
+numpy==1.13.3
+scipy==1.0.0
+gensim==3.1.0
+networkx==1.11
+sklearn==0.0
+futures==3.1.1
+psutil==5.4.1
+matplotlib==1.13.1
 
 ------------
 Installation
