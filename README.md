@@ -65,7 +65,6 @@ Parameters:
 	This parameter should be a number, and please note this number should be larger than the number of 'nodes'. 
 	
 	e.g:: 300, 500, ...
-	In our experiment, nodes=3000 will be more slow.
 
 **Full Command List**
 	The full list of command line options is available with ''DeepMatching.py --help''
