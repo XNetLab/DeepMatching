@@ -4,7 +4,7 @@ DeepMatching
 --------------------
 A brief introduction
 --------------------
-If you want to test the effection of parameters such as 'embedding', 'ratio' and 'dimension'(you can see the detail usage below), please try 'Example Usage-1'. Or, if you want to test the whole progress of DeepMatching(initial matching, extract a credibility seed set, and then using the seed set to propagation in the graph), please try 'Example Usage-2'.
+If you want to test the effection of parameters such as 'embedding', 'ratio' and 'dimension'(you can see the detail usage below), please try 'Example Usage-1'. Or, if you want to test the whole process of DeepMatching(initial matching, extract a credibility seed set, and then using the seed set to propagation in the graph), please try 'Example Usage-2'.
 
 -----
 Usage
