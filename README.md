@@ -19,20 +19,24 @@ Parameters:
 **--input**:	*network graph file path*
 
 **--embedding**:	*embedding_algorithm*
+
 	1. ''DeepWalk''
 	2. ''Node2Vec''
 
 **--nodes**:	*number of sub-graph's nodes*
-	This parameter should be a number, e.g::
-	300, 500, ...
+	This parameter should be a number.
+	
+	e.g:: 300, 500, ...
 	In our experiment, nodes=3000 will be more slow.
 
 **--ratio**:	*sample_ratio*
-	The sample ratio should be a number between 0 and 1, e.g::
-	0.5, 0.55, 0.6, 0.65, ... ,0.9 ...
+	The sample ratio should be a number between 0 and 1.
+	
+	e.g:: 0.5, 0.55, 0.6, 0.65, ... ,0.9 ...
 
 **--dimension**:	*assign the dimension used in the embedding algorithm*
 	This parameter is used in the embedding algorithm, in order to generate a vector who has the specified dimension.
+	
 	e.g:: 20, 30, 40, 50, ..., 120 .... 
 	In our experiment, we using dimension=64.
 
@@ -53,12 +57,14 @@ Parameters:
 **--input2**:	*network graph file path*
 
 **--nodes**:	*number of sub-graph's nodes*
-	This parameter should be a number, e.g::
-	300, 500, ...
+	This parameter should be a number.
+	
+	e.g:: 300, 500, ...
 
 **--propa_num**:	*number of a larger sub-graph's nodes*
-	This parameter should be a number, and please note this number should be larger than the number of 'nodes'. e.g:: 
-	300, 500, ...
+	This parameter should be a number, and please note this number should be larger than the number of 'nodes'. 
+	
+	e.g:: 300, 500, ...
 	In our experiment, nodes=3000 will be more slow.
 
 **Full Command List**
