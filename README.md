@@ -70,8 +70,11 @@ After running this algorithm, the results will be wrote in file and save in './d
 Requirements
 ------------
 numpy==1.13.3
+
 scipy==1.0.0
+
 gensim==3.1.0
+
 networkx==1.11
 sklearn==0.0
 futures==3.1.1
